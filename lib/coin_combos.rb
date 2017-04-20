@@ -12,6 +12,6 @@ class Fixnum
       end
       newcoinarray.push(num_coin)
     end
-    newcoinarray
+    newcoinarray.to_s()
   end
 end
